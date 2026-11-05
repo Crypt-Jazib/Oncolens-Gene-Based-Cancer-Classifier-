@@ -1,2 +1,26 @@
-# Oncolens-Gene-Based-Cancer-Classifier-
-Oncolens is an experimental bioinformatics web application for multi-class cancer classification from gene-expression data, built with FastAPI, Scikit-learn, and React.
+
+ 🧬**OncoLens** is a research prototype web application designed to demonstrate machine-learning-driven gene-expression classification across five cancer types (BRCA, COAD, KIRC, LUAD, PRAD).
+
+> **Disclaimer:** Research prototype only. Outputs are experimental, not clinically validated, and must not be used for diagnosis or treatment decisions.
+
+## Tech Stack
+- **Frontend:** React, Vite, Lucide Icons, Recharts, CSS3
+- **Backend:** Python 3.15, FastAPI, Uvicorn, Pandas, Scikit-learn, Joblib
+- **Machine Learning:** Saved Random Forest Classifier (20,531 gene features)
+
+## Project Structure
+```text
+OncoLens/
+├── backend/
+│   ├── main.py
+│   ├── models/
+│   │   ├── oncolens_random_forest.joblib
+│   │   ├── feature_columns.joblib
+│   │   ├── metrics.json
+│   │   └── gene_importance.csv
+│   └── assets/
+└── frontend/
+    ├── src/
+    │   ├── main.jsx
+    │   └── styles.css
+    └── package.json
