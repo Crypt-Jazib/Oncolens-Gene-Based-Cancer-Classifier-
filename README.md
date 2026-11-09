@@ -5,7 +5,7 @@
 
 ## Tech Stack
 - **Frontend:** React, Vite, Lucide Icons, Recharts, CSS3
-- **Backend:** Python 3.15, FastAPI, Uvicorn, Pandas, Scikit-learn, Joblib
+- **Backend:** Python, FastAPI, Uvicorn, Pandas, Scikit-learn
 - **Machine Learning:** Saved Random Forest Classifier (20,531 gene features)
 
 ## Project Structure
